@@ -1,0 +1,215 @@
+main{ 
+  max-width: 1200px;
+  min-height: 90vh;
+  margin: auto;
+  padding: 10px;
+}
+
+@media screen and (min-width: 720px) {
+    .card-footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+    .card-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    .card-aewmen{
+    border: 2px;
+    border-style: solid black;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    background-color: orange;
+    }
+
+    .card-aewwomen{
+    border: 2px;
+    border-style: solid black;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    background-color: plum;
+    }
+
+    .card-body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+    .card-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+    .card-text{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+    .text-muted {
+    text-align: center;
+}
+
+    .card-img-top{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    }
+
+    .card-footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+    div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+
+    .card-body a {
+    text-decoration: none;
+    color: blue;
+    }
+
+    a:hover {
+    text-decoration: underline;
+    color: black;
+    }
+
+    h3{
+    display: flex;
+    text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .card-title{
+    text-align: center;
+}
+
+    .card-text{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+    .text-muted {
+    text-align: center;
+}
+
+    .card-footer{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-aewmen{
+    border: 2px;
+    border-style: solid black;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    background-color: orange;
+}
+
+.card-aewwomen{
+    border: 2px;
+    border-style: solid black;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    background-color: plum;
+}
+
+.card-body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.text-muted {
+    text-align: center;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.card-footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+}

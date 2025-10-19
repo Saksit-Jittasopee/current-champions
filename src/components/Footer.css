@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 70px;
+    margin: auto;
+    padding: 0px 10px;
+    font-size: 15px;
+    border-top: 1px solid gray;
+}
+
+span{
+    cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: 10px;
+  padding: 1px;
+}
