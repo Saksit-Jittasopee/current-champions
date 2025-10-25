@@ -1,14 +1,14 @@
 import Undisputed from '../assets/WWE/Cody-Rhodes-WWE-SummerSlam-2025.png';
-import WorldHeavyweight from '../assets/WWE/seth-rollins-celebrates-winning-wwe-109148013.png';
+import WorldHeavyweight from '../assets/AEW/Vacant.png';
 import WomenChampion from '../assets/WWE/Tiffany-Stratton-Women-Championship.webp';
 import WomenWorld from '../assets/WWE/stephanie-vaquer.webp';
 import MenInter from '../assets/WWE/DominikWrestlemania.jpeg';
 import WomenInter from '../assets/WWE/BeckyLynch-Inter.webp';
 import MenUS from '../assets/WWE/IljaDragunovUS.jpeg';
 import WomenUS from '../assets/WWE/Giulia_WomenUS.webp';
-import RawTag from '../assets/WWE/0_Finn-BalorJD-McDonagh.webp';
-import SmackdownTag from '../assets/WWE/wyatt-sicks-summerslam-080325.webp';
-import WomenTag from '../assets/WWE/charlotte-flair-winning-the-tag-titles-with-alexa.webp';
+import RawTag from '../assets/WWE/AJLEE.jpg';
+import SmackdownTag from '../assets/WWE/wyatt-sicks-summerslam.webp';
+import WomenTag from '../assets/WWE/charlotte-alexa-tag.webp';
 import "./WWEInfo.css";
 
     const WWEInfo = ({title}) =>{
@@ -33,14 +33,14 @@ import "./WWEInfo.css";
                 <div class="card-raw">
                     <div class="card-body">
                         <img src={WorldHeavyweight} class="card-img-top" alt="WWE World Heavweight Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Seth_Rollins"><h3 class="card-title">Seth Rollins</h3></a>
-                        <p class="card-text">Cashing in on CM Punk to win the WWE World Heavyweight Championship in his 2nd reign.</p>
+                        <h3 class="card-title">Vacant<a href=""></a><a href=""></a></h3>
+                        <p class="card-text">The title was vacated on October 20, 2025, due to a legitimate injury incurred by Seth Rollins. The next champion will be decided in a match between CM Punk and Jey Uso at Saturday Night's Main Event XLI on November 1, 2025.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">WWE World Heavyweight Championship</small>
-                        <small class="text-muted">Date Won: Summerslam 2025: Night 1 (2/Aug/2025)</small>
-                        <small class="text-muted">Days Held: 65+ Days</small>
-                        <small class="text-muted">Reign: 2</small>
+                        <small class="text-muted">Date Won: -</small>
+                        <small class="text-muted">Days Held: -</small>
+                        <small class="text-muted">Reign: -</small>
                     </div>
                 </div>
 
@@ -131,14 +131,14 @@ import "./WWEInfo.css";
                 <div class="card-raw">
                     <div class="card-body">
                         <img src={RawTag} class="card-img-top" alt="WWE World Tag Team Championship" />
-                        <a href="https://en.wikipedia.org/wiki/The_Judgment_Day"><h3 class="card-title">The Judgment Day (Finn Balor & JD McDonagh)</h3></a>
-                        <p class="card-text">Defeating The New Day (Kofi Kingston & Xavier Wood) to win the WWE World Tag Team Championship in their second reign together.</p>
+                        <a href="https://en.wikipedia.org/wiki/AJ_Styles"><h3 class="card-title">AJ Styles</h3></a><a href="https://en.wikipedia.org/wiki/Dragon_Lee_(wrestler)"><h3 class="card-title">Dragon Lee</h3></a>
+                        <p class="card-text">Defeated The Judgment Day (Finn Bálor and JD McDonagh) on Raw.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">WWE World Tag Team Championship</small>
-                        <small class="text-muted">Date Won: Raw (30/June/2025)</small>
-                        <small class="text-muted">Days Held: 98+ Days</small>
-                        <small class="text-muted">Reign: 2 (Finn Balor - 4 | JD McDonagh - 2)</small>
+                        <small class="text-muted">Date Won: Raw (20/Oct/2025)</small>
+                        <small class="text-muted">Days Held: 2+ Days</small>
+                        <small class="text-muted">Reign: 1 (AJ Styles - 2 | Dragon Lee - 1)</small>
                     </div>
                 </div>
 

@@ -2,6 +2,7 @@ import "./Footer.css";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = ({title}) => {
 
@@ -12,6 +13,7 @@ const Footer = ({title}) => {
             <a href="https://www.facebook.com/saksit.jittasopee.1" target="_blank"><FaFacebook size={20}/></a>
             <a href="https://www.instagram.com/saksitjittasopee/" class="link" target="_blank"><FaInstagram size={20}/></a>
             <a href="https://github.com/Saksit-Jittasopee" class="link" target="_blank"><FaGithub size={20}/></a>
+            <a href="https://www.linkedin.com/in/saksit-jittasopee-743981382/" class="link" target="_blank"><FaLinkedin size={20}/></a>
             </div>
             </nav>
         )

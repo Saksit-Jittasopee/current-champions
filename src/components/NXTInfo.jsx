@@ -1,10 +1,10 @@
-import NXTMen from '../assets/NXT/ricky-saints-nxt-champion-september-28-a.png';
+import NXTMen from '../assets/NXT/ricky-saints-nxt-champion.png';
 import NXTWomen from '../assets/NXT/JacyJayneNXTWomen.webp';
 import NXTNA from '../assets/NXT/EthanPageNA.webp';
 import NXTWomenNA from '../assets/NXT/SolRucaDoubleChamp.png';
-import NXTHC from '../assets/NXT/wwe-nxt-viewership-for-june-24-sees-massive-increase-after-stacks-wins-heritage-cup-title-01.png';
+import NXTHC from '../assets/NXT/stacks.png';
 import NXTTag from '../assets/NXT/HardyBoyzNXTTagTeam.png';
-import WWESpeed from '../assets/NXT/el-grande-americano-retains-wwe-speed-championship-on-latest-episode.webp';
+import WWESpeed from '../assets/NXT/el-grande-americano.webp';
 import WWEWomenSpeed from '../assets/NXT/SolRucaDoubleChamp.png';
 import "./NXTInfo.css";
 
