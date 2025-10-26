@@ -18,7 +18,11 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Tech Stack
 
 •Build Tool: Vite with React Router
+
 •Language: JavaScript (jsx)
+
 •Styling: Normal CSS
+
 •Bootstrap: Cards Bootstrap v5.0 (https://getbootstrap.com/docs/5.0/components/card/)
+
 •Icons: React-Icons (https://react-icons.github.io/react-icons/)
