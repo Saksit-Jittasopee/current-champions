@@ -24,7 +24,7 @@ function App() {
   <Header theme={theme} setTheme={setTheme}/>
   <div className='Content'>
   <Routes>
-    <Route path="/" element={<Home title="Home Page"/>} exact />
+    <Route path="/" element={<Home title="Welcome To My Page"/>} exact />
     <Route path="/wwe" element={<WWEInfo title="WWE - World Wrestling Entertainment"/>} exact />
     <Route path="/nxt" element={<NXTInfo title="WWE - World Wrestling Entertainment (NXT)"/>} exact />
     <Route path="/aew" element={<AEWInfo title="AEW - All Elite Wrestling"/>} exact />

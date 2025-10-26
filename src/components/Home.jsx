@@ -3,15 +3,27 @@ const Home = ({title}) => {
 
     return(
         <div class="home">
-        <h1>{title}</h1>
-        <h2>Welcome To My Page.</h2>
-        <a href="https://getbootstrap.com/docs/5.0/components/card/"><p>Bootstrap that used in this page</p></a>
-        <br />
+        <div class="title"><h1>{title}</h1></div>
+        <div>
         <h2>About This Page</h2>
-        <p>This page was created to show current Wrestling Champions like (WWE, NXT, AEW, etc.) by using React & Node.js.</p>
-        <p>You can click button to show any companies current champions also click to change the theme.</p>
+        <p>This page was created to show current Wrestling Champions like (WWE, NXT, AEW, etc.) by using React & Vite.</p>
+        </div>
+        <br/>
+        <div>
+        <h2>Tech Stack:</h2>
+        <ul>
+        <li>Build Tool: Vite with React Router</li>
+        <li>Language: JavaScript</li>
+        <li>Styling: Normal CSS</li>
+        <li>Bootstrap: <a href="https://getbootstrap.com/docs/5.0/components/card/">Cards Bootstrap v5.0</a></li>
+        <li>Icons: React-Icons </li>
+        </ul>
+        </div>
         <br />
+        <div>
+        <p>You can click button to show any companies current champions, You can also click to change the theme.</p>
         <p>Thank you for paying attention to my page.</p>
+        </div> 
         </div>
     )
 }

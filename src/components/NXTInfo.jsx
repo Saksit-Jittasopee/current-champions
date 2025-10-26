@@ -1,11 +1,11 @@
 import NXTMen from '../assets/NXT/ricky-saints-nxt-champion.png';
-import NXTWomen from '../assets/NXT/JacyJayneNXTWomen.webp';
+import NXTWomen from '../assets/NXT/TatumPaxleyNXTWomen.jpg';
 import NXTNA from '../assets/NXT/EthanPageNA.webp';
-import NXTWomenNA from '../assets/NXT/SolRucaDoubleChamp.png';
+import NXTWomenNA from '../assets/NXT/BlakeMonroeNXTNA.jpg';
 import NXTHC from '../assets/NXT/stacks.png';
-import NXTTag from '../assets/NXT/HardyBoyzNXTTagTeam.png';
+import NXTTag from '../assets/NXT/DarkStateTagTeam.webp';
 import WWESpeed from '../assets/NXT/el-grande-americano.webp';
-import WWEWomenSpeed from '../assets/NXT/SolRucaDoubleChamp.png';
+import WWEWomenSpeed from '../assets/NXT/SolRucaSpeed.png';
 import "./NXTInfo.css";
 
 const NXTInfo = ({title}) =>{
@@ -30,13 +30,13 @@ const NXTInfo = ({title}) =>{
                 <div class="card-nxtwomen">
                     <div class="card-body">
                         <img src={NXTWomen} class="card-img-top" alt="NXT Women's Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Jacy_Jayne"><h3 class="card-title">Jacy Jayne</h3></a>
-                        <p class="card-text">Defeated Stephanie Vaquer on a shocking win to win her first NXT Women's Championship.</p>
+                        <a href="https://en.wikipedia.org/wiki/Tatum_Paxley"><h3 class="card-title">Tatum Paxley</h3></a>
+                        <p class="card-text">Defeated Jacy Jayne at Halloween Havoc to win her first NXT Women's Championship.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NXT Women's Championship</small>
-                        <small class="text-muted">Date Won: NXT (27/May/2025)</small>
-                        <small class="text-muted">Days Held: 144+ Days</small>
+                        <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
+                        <small class="text-muted">Days Held: 1+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -58,13 +58,13 @@ const NXTInfo = ({title}) =>{
                 <div class="card-nxtwomen">
                     <div class="card-body">
                         <img src={NXTWomenNA} class="card-img-top" alt="NXT Women's North American Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Sol_Ruca"><h3 class="card-title">Sol Ruca</h3></a>
-                        <p class="card-text">Defeated Izzi Dame, Kelani Jordan, Lola Vice, Thea Hail, and Zaria in a six-woman ladder match to win the vacant championship at Stand & Deliver. Previous champion Stephanie Vaquer relinquished the title due to also holding the NXT Women's Championship.</p>
+                        <a href="https://en.wikipedia.org/wiki/Mariah_May"><h3 class="card-title">Blake Monroe</h3></a>
+                        <p class="card-text">Defeated Zaria, who defended the title on behalf of previous champion Sol Ruca, at Halloween Havoc.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NXT Women's North American Championship</small>
-                        <small class="text-muted">Date Won: NXT Stand & Deliver 2025 (19/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 182+ Days</small>
+                        <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
+                        <small class="text-muted">Days Held: 1+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -86,14 +86,14 @@ const NXTInfo = ({title}) =>{
                 <div class="card-nxtmen">
                     <div class="card-body">
                         <img src={NXTTag} class="card-img-top" alt="NXT Tag Team Championship" />
-                        <a href="https://en.wikipedia.org/wiki/The_Hardy_Boyz"><h3 class="card-title">The Hardy Boyz (Jeff Hardy & Matt Hardy)</h3></a>
-                        <p class="card-text">Defeated DarkState (Dion Lennox and Osiris Griffin) in a Winners Take All match, in which The Hardy Boyz defended the TNA World Tag Team Championship, at NXT vs. TNA Showdown.</p>
+                        <a href="https://en.wikipedia.org/wiki/DarkState"><h3 class="card-title">DarkState (Dion Lennox & Osiris Griffin)</h3></a>
+                        <p class="card-text">Defeated The Hardy Boyz (Jeff Hardy and Matt Hardy) at Halloween Havoc in a Broken Rules match to reclaim their title.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NXT Tag Team Championship</small>
-                        <small class="text-muted">Date Won: NXT vs. TNA Showdown (7/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 11+ Days</small>
-                        <small class="text-muted">Reign: 1</small>
+                        <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
+                        <small class="text-muted">Days Held: 1+ Days</small>
+                        <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
 
