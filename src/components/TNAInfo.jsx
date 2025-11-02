@@ -20,7 +20,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA World Championship</small>
                         <small class="text-muted">Date Won: Bound for Glory 2025 (12/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 12+ Days</small>
+                        <small class="text-muted">Days Held: 21+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA Knockouts World Championship</small>
                         <small class="text-muted">Date Won: Victory Road 2025 (26/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 17+ Days</small>
+                        <small class="text-muted">Days Held: 37+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA International Championship</small>
                         <small class="text-muted">Date Won: Bound for Glory 2025 (12/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 12+ Days</small>
+                        <small class="text-muted">Days Held: 21+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA X Division Championship</small>
                         <small class="text-muted">Date Won: Slammiversary 2025 (20/July/2025)</small>
-                        <small class="text-muted">Days Held: 85+ Days</small>
+                        <small class="text-muted">Days Held: 105+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Slammiversary 2025 (20/July/2025)</small>
-                        <small class="text-muted">Days Held: 85+ Days</small>
+                        <small class="text-muted">Days Held: 105+ Days</small>
                         <small class="text-muted">Reign: 4</small>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA Knockouts World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Impact! (27/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 15+ Days</small>
+                        <small class="text-muted">Days Held: 35+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>

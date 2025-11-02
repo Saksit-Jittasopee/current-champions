@@ -1,6 +1,6 @@
 import Undisputed from '../assets/WWE/Cody-Rhodes-WWE-SummerSlam-2025.png';
-import WorldHeavyweight from '../assets/AEW/Vacant.png';
-import WomenChampion from '../assets/WWE/Tiffany-Stratton-Women-Championship.webp';
+import WorldHeavyweight from '../assets/WWE/CMPunkWHC.png';
+import WomenChampion from '../assets/WWE/JadeWomen.png';
 import WomenWorld from '../assets/WWE/stephanie-vaquer.webp';
 import MenInter from '../assets/WWE/DominikWrestlemania.jpeg';
 import WomenInter from '../assets/WWE/BeckyLynch-Inter.webp';
@@ -25,7 +25,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">Undisputed WWE Championship</small>
                         <small class="text-muted">Date Won: Summerslam 2025: Night 2 (3/Aug/2025)</small>
-                        <small class="text-muted">Days Held: 64+ Days</small>
+                        <small class="text-muted">Days Held: 91+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -33,27 +33,27 @@ import "./WWEInfo.css";
                 <div class="card-raw">
                     <div class="card-body">
                         <img src={WorldHeavyweight} class="card-img-top" alt="WWE World Heavweight Championship" />
-                        <h3 class="card-title">Vacant<a href=""></a><a href=""></a></h3>
-                        <p class="card-text">The title was vacated on October 20, 2025, due to a legitimate injury incurred by Seth Rollins. The next champion will be decided in a match between CM Punk and Jey Uso at Saturday Night's Main Event XLI on November 1, 2025.</p>
+                        <a href="https://en.wikipedia.org/wiki/CM_Punk"><h3 class="card-title">CM Punk</h3></a>
+                        <p class="card-text">Defeated Jey Uso at Saturday Night's Main Event to win the vacant title. The previous champion Seth Rollins was stripped off the title after he suffered a shoulder injury.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">WWE World Heavyweight Championship</small>
-                        <small class="text-muted">Date Won: -</small>
-                        <small class="text-muted">Days Held: -</small>
-                        <small class="text-muted">Reign: -</small>
+                        <small class="text-muted">Date Won: Saturday Night's Main Event XLI (1/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 1+ Days</small>
+                        <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
 
                 <div class="card-smackdown">
                     <div class="card-body">
                         <img src={WomenChampion} class="card-img-top" alt="WWE Women's Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Tiffany_Stratton"><h3 class="card-title">Tiffany Stratton</h3></a>
-                        <p class="card-text">Cashing in on Nia Jax to win her first WWE Women's Championship.</p>
+                        <a href="https://en.wikipedia.org/wiki/Jade_Cargill"><h3 class="card-title">Jade Cargill</h3></a>
+                        <p class="card-text">Defeated Tiffany Stratton at Saturday Night's Main Event to win her first WWE Women's Championship.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">WWE Women's Championship</small>
-                        <small class="text-muted">Date Won: Smackdown (3/Jan/2025)</small>
-                        <small class="text-muted">Days Held: 276+ Days</small>
+                        <small class="text-muted">Date Won: Saturday Night's Main Event XLI (1/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 1+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">WWE Women's World Championship</small>
                         <small class="text-muted">Date Won: Wrestlepalooza 2025 (20/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 16+ Days</small>
+                        <small class="text-muted">Days Held: 43+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">WWE Intercontinental Championship</small>
                         <small class="text-muted">Date Won: WrestleMania 41: Night 2 (20/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 169+ Days</small>
+                        <small class="text-muted">Days Held: 196+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">WWE Women's Intercontinental Championship</small>
                         <small class="text-muted">Date Won: Money in the Bank 2025 (7/June/2025)</small>
-                        <small class="text-muted">Days Held: 121+ Days</small>
+                        <small class="text-muted">Days Held: 148+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">WWE United States Championship</small>
                         <small class="text-muted">Date Won: Smackdown (17/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 1+ Days</small>
+                        <small class="text-muted">Days Held: 16+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">WWE Women's United States Championship</small>
                         <small class="text-muted">Date Won: Smackdown (27/June/2025)</small>
-                        <small class="text-muted">Days Held: 101+ Days</small>
+                        <small class="text-muted">Days Held: 128+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">WWE World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Raw (20/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 2+ Days</small>
+                        <small class="text-muted">Days Held: 13+ Days</small>
                         <small class="text-muted">Reign: 1 (AJ Styles - 2 | Dragon Lee - 1)</small>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">WWE Tag Team Championship</small>
                         <small class="text-muted">Date Won: Smackdown (11/July/2025)</small>
-                        <small class="text-muted">Days Held: 87+ Days</small>
+                        <small class="text-muted">Days Held: 114+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ import "./WWEInfo.css";
                     <div class="card-footer">
                         <small class="text-muted">WWE Women's Tag Team Championship</small>
                         <small class="text-muted">Date Won: Summerslam 2025: Night 1 (2/Aug/2025)</small>
-                        <small class="text-muted">Days Held: 65+ Days</small>
+                        <small class="text-muted">Days Held: 92+ Days</small>
                         <small class="text-muted">Reign: 1 (Alexa Bliss - 4 | Charlotte Flair - 2) </small>
                     </div>
                 </div>

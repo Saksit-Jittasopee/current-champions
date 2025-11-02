@@ -5,7 +5,7 @@ import NXTWomenNA from '../assets/NXT/BlakeMonroeNXTNA.jpg';
 import NXTHC from '../assets/NXT/stacks.png';
 import NXTTag from '../assets/NXT/DarkStateTagTeam.webp';
 import WWESpeed from '../assets/NXT/el-grande-americano.webp';
-import WWEWomenSpeed from '../assets/NXT/SolRucaSpeed.png';
+import WWEWomenSpeed from '../assets/AEW/Vacant.png';
 import "./NXTInfo.css";
 
 const NXTInfo = ({title}) =>{
@@ -22,7 +22,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Championship</small>
                         <small class="text-muted">Date Won: NXT No Mercy 2025 (27/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 21+ Days</small>
+                        <small class="text-muted">Days Held: 36+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Women's Championship</small>
                         <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 1+ Days</small>
+                        <small class="text-muted">Days Held: 8+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT North American Championship</small>
                         <small class="text-muted">Date Won: NXT (27/May/2025)</small>
-                        <small class="text-muted">Days Held: 144+ Days</small>
+                        <small class="text-muted">Days Held: 159+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Women's North American Championship</small>
                         <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 1+ Days</small>
+                        <small class="text-muted">Days Held: 8+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Heritage Cup</small>
                         <small class="text-muted">Date Won: NXT (24/June/2025)</small>
-                        <small class="text-muted">Days Held: 116+ Days</small>
+                        <small class="text-muted">Days Held: 131+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Tag Team Championship</small>
                         <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 1+ Days</small>
+                        <small class="text-muted">Days Held: 8+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">WWE Speed Championship</small>
                         <small class="text-muted">Date Won: WWE Speed Tournament (5/May/2025)</small>
-                        <small class="text-muted">Days Held: 166+ Days</small>
+                        <small class="text-muted">Days Held: 181+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -114,14 +114,14 @@ const NXTInfo = ({title}) =>{
                 <div class="card-nxtwomen">
                     <div class="card-body">
                         <img src={WWEWomenSpeed} class="card-img-top" alt="WWE Women's Speed Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Sol_Ruca"><h3 class="card-title">Sol Ruca</h3></a>
-                        <p class="card-text">Defeated Candice LeRae on Speed. WWE recognizes Ruca's reign as beginning on April 16, 2025, when the match aired on tape delay.</p>
+                        <a href=""><h3 class="card-title">Vacant</h3></a>
+                        <p class="card-text">The title was vacated on October 28, 2025, due to previous champion Sol Ruca sustaining a left knee injury.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">WWE Women's Speed Championship</small>
-                        <small class="text-muted">Date Won: WWE Speed Tournament (11/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 190+ Days</small>
-                        <small class="text-muted">Reign: 1</small>
+                        <small class="text-muted">Date Won: -</small>
+                        <small class="text-muted">Days Held: -</small>
+                        <small class="text-muted">Reign: -</small>
                     </div>
                 </div>
             </div>

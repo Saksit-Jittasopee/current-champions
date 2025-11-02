@@ -13,8 +13,8 @@ const Home = ({title}) => {
         <h2>Tech Stack:</h2>
         <ul>
         <li>Build Tool: Vite with React Router</li>
-        <li>Language: JavaScript</li>
-        <li>Styling: Normal CSS</li>
+        <li>Language: JavaScript (jsx)</li>
+        <li>Styling: Bootstrap CSS</li>
         <li>Bootstrap: <a href="https://getbootstrap.com/docs/5.0/components/card/">Cards Bootstrap v5.0</a></li>
         <li>Icons: React-Icons </li>
         </ul>

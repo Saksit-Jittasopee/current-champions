@@ -33,7 +33,7 @@ function App() {
     <Route path="*" element={<Navigate to="/" replace/>} />
   </Routes>
   </div>
-  <Footer title="Made by Saksit Jittasopee"></Footer>
+  <Footer title="&copy; 2025 Saksit Jittasopee. All rights reserved."></Footer>
   </div>
   </div>
   </Router>

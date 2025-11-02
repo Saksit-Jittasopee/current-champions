@@ -24,7 +24,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW World Championship</small>
                         <small class="text-muted">Date Won: All In: Texas 2025 (12/July/2025)</small>
-                        <small class="text-muted">Days Held: 98+ Days</small>
+                        <small class="text-muted">Days Held: 113+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW Women's World Championship</small>
                         <small class="text-muted">Date Won: All Out 2025 (20/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 28+ Days</small>
+                        <small class="text-muted">Days Held: 43+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW Unified Championship</small>
                         <small class="text-muted">Date Won: All In: Texas (12/July/2025)</small>
-                        <small class="text-muted">Days Held: 98+ Days</small>
+                        <small class="text-muted">Days Held: 113+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW Continental Championship</small>
                         <small class="text-muted">Date Won: Dynamite (20/Mar/2024)</small>
-                        <small class="text-muted">Days Held: 577+ Days</small>
+                        <small class="text-muted">Days Held: 592+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW International Championship</small>
                         <small class="text-muted">Date Won: All In: Texas (12/July/2025)</small>
-                        <small class="text-muted">Days Held: 98+ Days</small>
+                        <small class="text-muted">Days Held: 113+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW TNT Championship</small>
                         <small class="text-muted">Date Won: Collision (31/July/2025)</small>
-                        <small class="text-muted">Days Held: 79+ Days</small>
+                        <small class="text-muted">Days Held: 94+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW TBS Championship</small>
                         <small class="text-muted">Date Won: Double or Nothing 2024 (26/May/2024)</small>
-                        <small class="text-muted">Days Held: 510+ Days</small>
+                        <small class="text-muted">Days Held: 525+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Forbidden Door 2025 (24/Aug/2025)</small>
-                        <small class="text-muted">Days Held: 55+ Days</small>
+                        <small class="text-muted">Days Held: 70+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -136,7 +136,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW World Trios Championship</small>
                         <small class="text-muted">Date Won: Dynamite: Spring BreakThru (16/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 185+ Days</small>
+                        <small class="text-muted">Days Held: 200+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
