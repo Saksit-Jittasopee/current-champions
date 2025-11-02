@@ -21,7 +21,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 •Language: JavaScript (jsx)
 
-•Styling: Normal CSS
+•Styling: Bootstrap CSS 
 
 •Bootstrap: Cards Bootstrap v5.0 (https://getbootstrap.com/docs/5.0/components/card/)
 
