@@ -1,5 +1,5 @@
-import TNAMen from '../assets/TNA/MikeSantanaTNAWorld.webp';
-import TNAKO from '../assets/TNA/Kelani-Jordan-TNA-Victory-Road-2025.jpg';
+import TNAMen from '../assets/TNA/Frankie-Kazarian-TNA-World-Champion.jpeg';
+import TNAKO from '../assets/TNA/Lei-Ying-Lee-TNA-Knockouts-World-Champion.jpg';
 import TNAInter from '../assets/TNA/TNA-Impact-Steve-Maclin.png';
 import TNAX from '../assets/TNA/LeonSlaterX.jpg';
 import TNATag from '../assets/TNA/HardyBoyzTNATagTeam.png';
@@ -14,13 +14,13 @@ const TNAInfo = ({title}) =>{
                 <div class="card-tnamen">
                     <div class="card-body">
                         <img src={TNAMen} class="card-img-top" alt="TNA World Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Mike_Santana"><h3 class="card-title">Mike Santana</h3></a>
-                        <p class="card-text">Defeated Trick Williams at Bound for Glory to win his first world title.</p>
+                        <a href="https://en.wikipedia.org/wiki/Frankie_Kazarian"><h3 class="card-title">Frankie Kazarian</h3></a>
+                        <p class="card-text">Defeated Mike Santana during the live broadcast of Impact! This was Kazarian's Call Your Shot Gauntlet cash-in match</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">TNA World Championship</small>
-                        <small class="text-muted">Date Won: Bound for Glory 2025 (12/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 21+ Days</small>
+                        <small class="text-muted">Date Won: Impact! (13/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 22+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -28,13 +28,13 @@ const TNAInfo = ({title}) =>{
                 <div class="card-tnawomen">
                     <div class="card-body">
                         <img src={TNAKO} class="card-img-top" alt="TNA Knockouts World Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Kelani_Jordan"><h3 class="card-title">Kelani Jordan</h3></a>
+                        <a href="https://en.wikipedia.org/wiki/L%C3%A9i_Ying_Lee"><h3 class="card-title">Léi Yǐng Lee</h3></a>
                         <p class="card-text">Jordan and Léi Yǐng Lee won a battle royal at Victory Road to advance to a singles match for the vacated title later that night, which was won by Jordan. Previous champion Ash by Elegance had vacated the title earlier in the night.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">TNA Knockouts World Championship</small>
-                        <small class="text-muted">Date Won: Victory Road 2025 (26/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 37+ Days</small>
+                        <small class="text-muted">Date Won: NXT Gold Rush 2025 (18/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 17+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA International Championship</small>
                         <small class="text-muted">Date Won: Bound for Glory 2025 (12/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 21+ Days</small>
+                        <small class="text-muted">Days Held: 54+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA X Division Championship</small>
                         <small class="text-muted">Date Won: Slammiversary 2025 (20/July/2025)</small>
-                        <small class="text-muted">Days Held: 105+ Days</small>
+                        <small class="text-muted">Days Held: 138+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Slammiversary 2025 (20/July/2025)</small>
-                        <small class="text-muted">Days Held: 105+ Days</small>
+                        <small class="text-muted">Days Held: 138+ Days</small>
                         <small class="text-muted">Reign: 4</small>
                     </div>
                 </div>

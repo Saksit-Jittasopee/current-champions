@@ -6,7 +6,7 @@ const Home = ({title}) => {
         <div class="title"><h1>{title}</h1></div>
         <div>
         <h2>About This Page</h2>
-        <p>This page was created to show current Wrestling Champions like (WWE, NXT, AEW, etc.) by using React & Vite.</p>
+        <p>This page was created to show current Wrestling Champions like (WWE, NXT, AEW, etc.) by using React & JavaScript & Vite. This page is monthly updated.</p>
         </div>
         <br/>
         <div>

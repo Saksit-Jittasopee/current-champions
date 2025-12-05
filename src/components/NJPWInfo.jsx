@@ -8,7 +8,7 @@ import NJPWStrongWomen from '../assets/NJPW/SayaKamitaniStrong.png';
 import NJPWTV from '../assets/NJPW/ELPTV.jpg';
 import IWGPTag from '../assets/NJPW/kobrother.png';
 import IWGPJrTag from '../assets/NJPW/HOTIWGPJrTag.jpg';
-import NJPWStrongTag from '../assets/NJPW/UENjpwStrongTag.jpg';
+import NJPWStrongTag from '../assets/NJPW/NJPWStrongCMLL.jpg';
 import NeverSixTag from '../assets/NJPW/Never6man.png';
 import NJPWTamashii from '../assets/NJPW/PrettyBoysTamashii.jpg';
 import "./NJPWInfo.css";
@@ -27,7 +27,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP World Heavyweight Championship</small>
                         <small class="text-muted">Date Won: King of Pro-Wrestling 2025 (13/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 10+ Days</small>
+                        <small class="text-muted">Days Held: 46+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP Women's Championship</small>
                         <small class="text-muted">Date Won: King of Pro-Wrestling 2025 (13/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 10+ Days</small>
+                        <small class="text-muted">Days Held: 46+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP Global Heavyweight Championship</small>
                         <small class="text-muted">Date Won: King of Pro-Wrestling 2025 (13/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 10+ Days</small>
+                        <small class="text-muted">Days Held: 46+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP Junior Heavyweight Championship</small>
                         <small class="text-muted">Date Won: Road to King of Pro Wrestling: Night 2 (6/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 17+ Days</small>
+                        <small class="text-muted">Days Held: 53+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NEVER Openweight Championship</small>
                         <small class="text-muted">Date Won: King of Pro-Wrestling 2025 (13/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 10+ Days</small>
+                        <small class="text-muted">Days Held: 46+ Days</small>
                         <small class="text-muted">Reign: 4</small>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NJPW Strong Openweight Championship</small>
                         <small class="text-muted">Date Won: Windy City Riot 2025 (11/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 195+ Days</small>
+                        <small class="text-muted">Days Held: 231+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NJPW Strong Women's Championship</small>
                         <small class="text-muted">Date Won: Stardom In Korakuen 2025 (25/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 27+ Days</small>
+                        <small class="text-muted">Days Held: 62+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NJPW World Television Championship</small>
                         <small class="text-muted">Date Won: Wrestling Hizen no Kuni (29/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 177+ Days</small>
+                        <small class="text-muted">Days Held: 213+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP Tag Team Championship</small>
                         <small class="text-muted">Date Won: Destruction in Kobe 2025 (28/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 25+ Days</small>
+                        <small class="text-muted">Days Held: 61+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP Junior Heavyweight Tag Team Championship</small>
                         <small class="text-muted">Date Won: Dominion 6.15 in Osaka-jo Hall (15/June/2025)</small>
-                        <small class="text-muted">Days Held: 130+ Days</small>
+                        <small class="text-muted">Days Held: 166+ Days</small>
                         <small class="text-muted">Reign: 1 (Sho - 6 | Douki - 1)</small>
                     </div>
                 </div>
@@ -161,13 +161,13 @@ const NJPWInfo = ({title}) =>{
                 <div class="card-njpwstrong">
                     <div class="card-body">
                         <img src={NJPWStrongTag} class="card-img-top" alt="NJPW Strong Openweight Tag Team Championship" />
-                        <a href="https://en.wikipedia.org/wiki/United_Empire"><h3 class="card-title">United Empire</h3></a><a href="https://en.wikipedia.org/wiki/T._J._Perkins">TJP</a><a href="https://en.wikipedia.org/wiki/Templario">Templario</a>
-                        <p class="card-text">Defeated World Class Wrecking Crew (Royce Isaacs and Jorel Nelson) at Resurgence.</p>
+                        <a><h3 class="card-title">Los Hermanos Chávez</h3></a><a href="https://en.wikipedia.org/wiki/%C3%81ngel_de_Oro">Ángel de Oro</a><a href="https://en.wikipedia.org/wiki/Niebla_Roja">Niebla Roja</a>
+                        <p class="card-text">Defeated United Empire (TJP and Templario) at CMLL Viernes Espectacular.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NJPW Strong Openweight Tag Team Championship</small>
-                        <small class="text-muted">Date Won: Resurgence 2025 (9/May/2025)</small>
-                        <small class="text-muted">Days Held: 168+ Days</small>
+                        <small class="text-muted">Date Won: CMLL Viernes Espectacular 2025 (14/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 14+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -181,7 +181,7 @@ const NJPWInfo = ({title}) =>{
                         <div class="card-footer">
                             <small class="text-muted">NEVER Openweight 6-Man Tag Team Championship</small>
                             <small class="text-muted">Date Won: New Japan Soul 2025: Night 8 (4/July/2025)</small>
-                            <small class="text-muted">Days Held: 112+ Days</small>
+                            <small class="text-muted">Days Held: 147+ Days</small>
                             <small class="text-muted">Reign: 1 (Master Wato - 1 | Toru Yano - 7 | Yoh - 2)</small>
                     </div>
                 </div>
@@ -195,7 +195,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NJPW TAMASHII Tag Team Championship</small>
                         <small class="text-muted">Date Won: Tamashii: Cold War (4/July/2025)</small>
-                        <small class="text-muted">Days Held: 112+ Days</small>
+                        <small class="text-muted">Days Held: 147+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>

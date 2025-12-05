@@ -1,11 +1,12 @@
-import AEWWorld from '../assets/AEW/AEW-ADAM-PAGE.webp';
+import AEWWorld from '../assets/AEW/SamoaJoe.webp';
 import AEWWomen from '../assets/AEW/Kris-Statlander-Wins-Champ.webp';
 import AEWUnified from '../assets/AEW/updated-kazuchika-okada.webp';
 import AEWCont from '../assets/AEW/updated-kazuchika-okada.webp';
 import AEWInter from '../assets/AEW/updated-kazuchika-okada.webp';
-import AEWTNT from '../assets/AEW/flectherTNT.png';
-import AEWTBS from '../assets/AEW/Mone10Belts.jpg';
-import AEWTag from '../assets/AEW/BrodidoTag.webp';
+import AEWTNT from '../assets/AEW/MarkBriscoeTNT.jpg';
+import AEWNational from '../assets/AEW/RicochetNational.jpg';
+import AEWTBS from '../assets/AEW/Mone100Belts.jpg';
+import AEWTag from '../assets/AEW/FTR3x.jpg';
 import AEWTrios from '../assets/AEW/TheOpps.jpg';
 import AEWWomenTag from '../assets/AEW/Vacant.png';
 import "./AEWInfo.css";
@@ -18,13 +19,13 @@ const AEWInfo = ({title}) =>{
                 <div class="card-aewmen">
                     <div class="card-body">
                         <img src={AEWWorld} class="card-img-top" alt="AEW World Championship" />
-                        <a href="https://en.wikipedia.org/wiki/%22Hangman%22_Adam_Page"><h3 class="card-title">"Hangman" Adam Page</h3></a>
-                        <p class="card-text">Defeated Jon Moxley in a Texas Deathmatch at All In: Texas.</p>
+                        <a href="https://en.wikipedia.org/wiki/Samoa_Joe"><h3 class="card-title">Samoa Joe</h3></a>
+                        <p class="card-text">Defeated "Hangman" Adam Page in a Steel Cage match at Full Gear.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">AEW World Championship</small>
-                        <small class="text-muted">Date Won: All In: Texas 2025 (12/July/2025)</small>
-                        <small class="text-muted">Days Held: 113+ Days</small>
+                        <small class="text-muted">Date Won: Full Gear 2025 (22/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 12+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -38,7 +39,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW Women's World Championship</small>
                         <small class="text-muted">Date Won: All Out 2025 (20/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 43+ Days</small>
+                        <small class="text-muted">Days Held: 75+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -52,7 +53,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW Unified Championship</small>
                         <small class="text-muted">Date Won: All In: Texas (12/July/2025)</small>
-                        <small class="text-muted">Days Held: 113+ Days</small>
+                        <small class="text-muted">Days Held: 145+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -66,7 +67,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW Continental Championship</small>
                         <small class="text-muted">Date Won: Dynamite (20/Mar/2024)</small>
-                        <small class="text-muted">Days Held: 592+ Days</small>
+                        <small class="text-muted">Days Held: 624+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -80,7 +81,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW International Championship</small>
                         <small class="text-muted">Date Won: All In: Texas (12/July/2025)</small>
-                        <small class="text-muted">Days Held: 113+ Days</small>
+                        <small class="text-muted">Days Held: 145+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -88,13 +89,27 @@ const AEWInfo = ({title}) =>{
                 <div class="card-aewmen">
                     <div class="card-body">
                         <img src={AEWTNT} class="card-img-top" alt="AEW TNT Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Kyle_Fletcher"><h3 class="card-title">Kyle Flecther</h3></a>
-                        <p class="card-text">Defeated Dustin Rhodes in a Chicago Street Fight on Collision.</p>
+                        <a href="https://en.wikipedia.org/wiki/Mark_Briscoe"><h3 class="card-title">Mark Briscoe</h3></a>
+                        <p class="card-text">Defeated Kyle Fletcher in a No Disqualification match at Full Gear; had Briscoe lost the match, he would have been forced to join Fletcher in the Don Callis Family.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">AEW TNT Championship</small>
-                        <small class="text-muted">Date Won: Collision (31/July/2025)</small>
-                        <small class="text-muted">Days Held: 94+ Days</small>
+                        <small class="text-muted">Date Won: Full Gear 2025 (22/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 12+ Days</small>
+                        <small class="text-muted">Reign: 1</small>
+                    </div>
+                </div>
+
+                <div class="card-aewmen">
+                    <div class="card-body">
+                        <img src={AEWNational} class="card-img-top" alt="AEW National Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Ricochet_(wrestler)"><h3 class="card-title">Ricochet</h3></a>
+                        <p class="card-text">Pinned Kevin Knight in a 12-man Casino Gauntlet match to become the inaugural champion at Full Gear.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">AEW National Championship</small>
+                        <small class="text-muted">Date Won: Full Gear 2025 (22/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 12+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -103,12 +118,12 @@ const AEWInfo = ({title}) =>{
                     <div class="card-body">
                         <img src={AEWTBS} class="card-img-top" alt="AEW TBS Championship" />
                         <a href="https://en.wikipedia.org/wiki/Mercedes_Mon%C3%A9"><h3 class="card-title">Mercedes Moné</h3></a>
-                        <p class="card-text">Defeated Willow Nightingale at Double or Nothing and she is now holding 10 belts currently.</p>
+                        <p class="card-text">Defeated Willow Nightingale at Double or Nothing and she is now holding 13 belts currently.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">AEW TBS Championship</small>
                         <small class="text-muted">Date Won: Double or Nothing 2024 (26/May/2024)</small>
-                        <small class="text-muted">Days Held: 525+ Days</small>
+                        <small class="text-muted">Days Held: 557+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -116,14 +131,14 @@ const AEWInfo = ({title}) =>{
                 <div class="card-aewmen">
                     <div class="card-body">
                         <img src={AEWTag} class="card-img-top" alt="AEW World Tag Team Championship" />
-                        <h3 class="card-title">Brodido</h3><a href="https://en.wikipedia.org/wiki/Brody_King">Brody King</a><a href="https://en.wikipedia.org/wiki/Bandido_(wrestler)">Bandido</a>
-                        <p class="card-text">Defeated previous champions The Hurt Syndicate (Bobby Lashley and Shelton Benjamin) and FTR (Cash Wheeler and Dax Harwood) in a three-way tag team match at Forbidden Door.</p>
+                        <a href="https://en.wikipedia.org/wiki/FTR_(professional_wrestling)"><h3 class="card-title">FTR (Cash Wheeler & Dax Harwood)</h3></a>
+                        <p class="card-text">Defeated Brodido (Brody King and Bandido) at Full Gear.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">AEW World Tag Team Championship</small>
-                        <small class="text-muted">Date Won: Forbidden Door 2025 (24/Aug/2025)</small>
-                        <small class="text-muted">Days Held: 70+ Days</small>
-                        <small class="text-muted">Reign: 1</small>
+                        <small class="text-muted">Date Won: Full Gear 2025 (22/Nov/2025)</small>
+                        <small class="text-muted">Days Held: 12+ Days</small>
+                        <small class="text-muted">Reign: 3</small>
                     </div>
                 </div>
 
@@ -136,7 +151,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW World Trios Championship</small>
                         <small class="text-muted">Date Won: Dynamite: Spring BreakThru (16/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 200+ Days</small>
+                        <small class="text-muted">Days Held: 232+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
