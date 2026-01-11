@@ -1,7 +1,5 @@
-import NXTMen from '../assets/NXT/ricky-saints-nxt-champion.png';
 import NXTWomen from '../assets/NXT/JacyJayneNXTWomen.webp';
 import NXTNA from '../assets/NXT/EthanPageNA.webp';
-import NXTWomenNA from '../assets/NXT/BlakeMonroeNXTNA.jpg';
 import NXTHC from '../assets/NXT/stacks.png';
 import NXTTag from '../assets/NXT/DarkStateTagTeam.webp';
 import WWESpeed from '../assets/NXT/JasperTroy.jpg';
@@ -15,15 +13,15 @@ const NXTInfo = ({title}) =>{
             <div class="card-group">
                 <div class="card-nxtmen">
                     <div class="card-body">
-                        <img src={NXTMen} class="card-img-top" alt="NXT Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Ricky_Saints"><h3 class="card-title">Ricky Saints</h3></a>
-                        <p class="card-text">Defeated Oba Femi at No Mercy to win his first NXT Championship.</p>
+                        <img src="https://www.wwe.com/f/styles/og_image/public/all/2016/08/Vacant--9b7bb01de657f8b369d196dc037a3416.png" class="card-img-top" alt="NXT Championship" />
+                        <a><h3 class="card-title">Vacant</h3></a>
+                        <p class="card-text">After successfully defending the title against Leon Slater at NXT: New Year's Evil, previous champion Oba Femi left the NXT Championship belt in the ring, voluntarily relinquishing the title.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NXT Championship</small>
-                        <small class="text-muted">Date Won: NXT No Mercy 2025 (27/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 67+ Days</small>
-                        <small class="text-muted">Reign: 1</small>
+                        <small class="text-muted">Date Won: -</small>
+                        <small class="text-muted">Days Held: -</small>
+                        <small class="text-muted">Reign: -</small>
                     </div>
                 </div>
 
@@ -36,7 +34,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Women's Championship</small>
                         <small class="text-muted">Date Won: NXT: Gold Rush - Night 1 (18/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 15+ Days</small>
+                        <small class="text-muted">Days Held: 53+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -50,21 +48,21 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT North American Championship</small>
                         <small class="text-muted">Date Won: NXT (27/May/2025)</small>
-                        <small class="text-muted">Days Held: 190+ Days</small>
+                        <small class="text-muted">Days Held: 228+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-nxtwomen">
                     <div class="card-body">
-                        <img src={NXTWomenNA} class="card-img-top" alt="NXT Women's North American Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Mariah_May"><h3 class="card-title">Blake Monroe</h3></a>
-                        <p class="card-text">Defeated Zaria, who defended the title on behalf of previous champion Sol Ruca, at Halloween Havoc.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9zaCGvvXd5ik0lp8rTtJmbl2TOdfnaSZLWA&s" class="card-img-top" alt="NXT Women's North American Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Izzi_Dame"><h3 class="card-title">Izzi Dame</h3></a>
+                        <p class="card-text">Defeated Thea Hail in an open challenge at NXT: New Year's Evil.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NXT Women's North American Championship</small>
-                        <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 39+ Days</small>
+                        <small class="text-muted">Date Won: NXT: New Year's Evil 2026 (6/Jan/2026)</small>
+                        <small class="text-muted">Days Held: 4+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -78,7 +76,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Heritage Cup</small>
                         <small class="text-muted">Date Won: NXT (24/June/2025)</small>
-                        <small class="text-muted">Days Held: 162+ Days</small>
+                        <small class="text-muted">Days Held: 200+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -92,7 +90,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Tag Team Championship</small>
                         <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 39+ Days</small>
+                        <small class="text-muted">Days Held: 77+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -106,7 +104,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">WWE Speed Championship</small>
                         <small class="text-muted">Date Won: NXT (11/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 22+ Days</small>
+                        <small class="text-muted">Days Held: 60+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -120,7 +118,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">WWE Women's Speed Championship</small>
                         <small class="text-muted">Date Won: NXT: Gold Rush - Night 1 (18/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 15+ Days</small>
+                        <small class="text-muted">Days Held: 46+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>

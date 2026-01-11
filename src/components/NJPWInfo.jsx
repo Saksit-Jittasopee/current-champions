@@ -1,15 +1,9 @@
-import IWGPWorld from '../assets/NJPW/KonosukeTakeshitaIWGP.webp';
-import IWGPWomen from '../assets/NJPW/SyuriIWGP.png';
-import IWGPGlobal from '../assets/NJPW/YotaTsujiGlobal.webp';
-import Never from '../assets/NJPW/EVIL.jpg';
 import IWGPJrHeavy from '../assets/NJPW/DoukiIWGPJr.jpg';
 import NJPWStrong from '../assets/NJPW/IshiiStrong.jpg';
-import NJPWStrongWomen from '../assets/NJPW/SayaKamitaniStrong.png';
 import NJPWTV from '../assets/NJPW/ELPTV.jpg';
 import IWGPTag from '../assets/NJPW/kobrother.png';
 import IWGPJrTag from '../assets/NJPW/HOTIWGPJrTag.jpg';
 import NJPWStrongTag from '../assets/NJPW/NJPWStrongCMLL.jpg';
-import NeverSixTag from '../assets/NJPW/Never6man.png';
 import NJPWTamashii from '../assets/NJPW/PrettyBoysTamashii.jpg';
 import "./NJPWInfo.css";
 
@@ -20,42 +14,42 @@ const NJPWInfo = ({title}) =>{
             <div class="card-group">
                 <div class="card-njpwmen">
                     <div class="card-body">
-                        <img src={IWGPWorld} class="card-img-top" alt="IWGP World Heavyweight Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Konosuke_Takeshita"><h3 class="card-title">Konosuke Takeshita</h3></a>
-                        <p class="card-text">Defeated Zack Sabre Jr. at King of Pro-Wrestling. He is also a G1-Climax Winner.</p>
+                        <img src="https://preview.redd.it/yota-tsuji-revives-the-iwgp-heavyweight-championship-at-new-v0-fym6d2b74lbg1.jpeg?width=640&crop=smart&auto=webp&s=ea86032a26a763d72d88936372a77dc41deb51de" class="card-img-top" alt="IWGP World Heavyweight Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Yota_Tsuji"><h3 class="card-title">Yota Tsuji</h3></a>
+                        <p class="card-text">Defeated Konosuke Takeshita in a Winner Takes All match, in which Tsuji's IWGP Global Heavyweight Championship was also on the line, at Wrestle Kingdom 20.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">IWGP World Heavyweight Championship</small>
-                        <small class="text-muted">Date Won: King of Pro-Wrestling 2025 (13/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 46+ Days</small>
+                        <small class="text-muted">IWGP Heavyweight Championship</small>
+                        <small class="text-muted">Date Won: Wrestle Kingdom 20 (4/Jan/2026)</small>
+                        <small class="text-muted">Days Held: 3+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-njpwwomen">
                     <div class="card-body">
-                        <img src={IWGPWomen} class="card-img-top" alt="IWGP Women's Championship" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRsWFtmy2q3ME8b9km0Fn1E7Fwh57umU9ng&s" class="card-img-top" alt="IWGP Women's Championship" />
                         <a href="https://en.wikipedia.org/wiki/Syuri"><h3 class="card-title">Syuri</h3></a>
                         <p class="card-text">Defeated Sareee at King of Pro-Wrestling to reclaim her IWGP Women's Champions.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">IWGP Women's Championship</small>
                         <small class="text-muted">Date Won: King of Pro-Wrestling 2025 (13/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 46+ Days</small>
+                        <small class="text-muted">Days Held: 86+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
 
                 <div class="card-njpwmen">
                     <div class="card-body">
-                        <img src={IWGPGlobal} class="card-img-top" alt="IWGP Global Heavyweight Championship" />
+                        <img src="https://preview.redd.it/yota-tsuji-revives-the-iwgp-heavyweight-championship-at-new-v0-fym6d2b74lbg1.jpeg?width=640&crop=smart&auto=webp&s=ea86032a26a763d72d88936372a77dc41deb51de" class="card-img-top" alt="IWGP Global Heavyweight Championship" />
                         <a href="https://en.wikipedia.org/wiki/Yota_Tsuji"><h3 class="card-title">Yota Tsuji</h3></a>
                         <p class="card-text">Defeated Gabe Kidd at King of Pro-Wrestling to reclaim his IWGP Global Heavyweight Champions.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">IWGP Global Heavyweight Championship</small>
                         <small class="text-muted">Date Won: King of Pro-Wrestling 2025 (13/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 46+ Days</small>
+                        <small class="text-muted">Days Held: 86+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -69,22 +63,22 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP Junior Heavyweight Championship</small>
                         <small class="text-muted">Date Won: Road to King of Pro Wrestling: Night 2 (6/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 53+ Days</small>
+                        <small class="text-muted">Days Held: 93+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
 
                 <div class="card-njpwmen">
                     <div class="card-body">
-                        <img src={Never} class="card-img-top" alt="NEVER Openweight Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Evil_(wrestler)"><h3 class="card-title">EVIL</h3></a>
-                        <p class="card-text">Defeated Boltin Oleg at King of Pro-Wrestling to win his 4th NEVER Openweight Champions.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwwA42v_Kev8CtlRkC2f3LZf67ubCBsC6Nvw&s" class="card-img-top" alt="NEVER Openweight Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Aaron_Wolf_(judoka)"><h3 class="card-title">Aaron Wolf</h3></a>
+                        <p class="card-text">Defeated Evil at Wrestle Kingdom 20 to win his first title in NJPW.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NEVER Openweight Championship</small>
-                        <small class="text-muted">Date Won: King of Pro-Wrestling 2025 (13/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 46+ Days</small>
-                        <small class="text-muted">Reign: 4</small>
+                        <small class="text-muted">Date Won: Wrestle Kingdom 20 (4/Jan/2026)</small>
+                        <small class="text-muted">Days Held: 3+ Days</small>
+                        <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
@@ -97,21 +91,21 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NJPW Strong Openweight Championship</small>
                         <small class="text-muted">Date Won: Windy City Riot 2025 (11/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 231+ Days</small>
+                        <small class="text-muted">Days Held: 271+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-njpwstrong">
                     <div class="card-body">
-                        <img src={NJPWStrongWomen} class="card-img-top" alt="NJPW Strong Women's Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Saya_Kamitani"><h3 class="card-title">Saya Kamitani</h3></a>
-                        <p class="card-text">Defeated AZM in a Winner Takes All match, where Kamitani's World of Stardom Championship was on the line, at Stardom In Korakuen.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRsWFtmy2q3ME8b9km0Fn1E7Fwh57umU9ng&s" class="card-img-top" alt="NJPW Strong Women's Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Syuri"><h3 class="card-title">Syuri</h3></a>
+                        <p class="card-text">Defeated Saya Kamitani in a Winner Takes All match, where Syuri's IWGP Women's Championship was also on the line, at Wrestle Kingdom 20.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NJPW Strong Women's Championship</small>
-                        <small class="text-muted">Date Won: Stardom In Korakuen 2025 (25/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 62+ Days</small>
+                        <small class="text-muted">Date Won: Wrestle Kingdom 20 (4/Jan/2026)</small>
+                        <small class="text-muted">Days Held: 3+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -125,7 +119,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NJPW World Television Championship</small>
                         <small class="text-muted">Date Won: Wrestling Hizen no Kuni (29/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 213+ Days</small>
+                        <small class="text-muted">Days Held: 253+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -139,7 +133,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP Tag Team Championship</small>
                         <small class="text-muted">Date Won: Destruction in Kobe 2025 (28/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 61+ Days</small>
+                        <small class="text-muted">Days Held: 101+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -153,7 +147,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">IWGP Junior Heavyweight Tag Team Championship</small>
                         <small class="text-muted">Date Won: Dominion 6.15 in Osaka-jo Hall (15/June/2025)</small>
-                        <small class="text-muted">Days Held: 166+ Days</small>
+                        <small class="text-muted">Days Held: 206+ Days</small>
                         <small class="text-muted">Reign: 1 (Sho - 6 | Douki - 1)</small>
                     </div>
                 </div>
@@ -167,22 +161,22 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NJPW Strong Openweight Tag Team Championship</small>
                         <small class="text-muted">Date Won: CMLL Viernes Espectacular 2025 (14/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 14+ Days</small>
+                        <small class="text-muted">Days Held: 54+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-njpwmen">
                     <div class="card-body">
-                        <img src={NeverSixTag} class="card-img-top" alt="NEVER Openweight 6-Man Tag Team Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Master_Wato"><h3 class="card-title">Master Wato</h3></a><a href="https://en.wikipedia.org/wiki/Toru_Yano"><h3 class="card-title">Toru Yano</h3></a><a href="https://en.wikipedia.org/wiki/Yoh_(wrestler"><h3 class="card-title">Yoh</h3></a>
-                        <p class="card-text">Defeated House of Torture (Ren Narita, Sho and Yujiro Takahashi) at New Japan Soul 2025: Night 8.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZVoZ1XwoTpyzZW7cUPI0njcQOcFqh8r-Oqw&s" class="card-img-top" alt="NEVER Openweight 6-Man Tag Team Championship" />
+                        <a href="https://en.wikipedia.org/wiki/TMDK"><h3 class="card-title">TMDK</h3></a><a href="https://en.wikipedia.org/wiki/Zack_Sabre_Jr.">Zack Sabre Jr.</a><a href="https://en.wikipedia.org/wiki/Ryohei_Oiwa">Ryohei Oiwa</a><a href="https://en.wikipedia.org/wiki/Hartley_Jackson">Hartley Jackson</a>
+                        <p class="card-text">Last eliminated Boltin Oleg and Bishamon in an 8-team Ranbo at Wrestle Kingdom 20.</p>
                     </div>
                         <div class="card-footer">
                             <small class="text-muted">NEVER Openweight 6-Man Tag Team Championship</small>
-                            <small class="text-muted">Date Won: New Japan Soul 2025: Night 8 (4/July/2025)</small>
-                            <small class="text-muted">Days Held: 147+ Days</small>
-                            <small class="text-muted">Reign: 1 (Master Wato - 1 | Toru Yano - 7 | Yoh - 2)</small>
+                            <small class="text-muted">Date Won: Wrestle Kingdom 20 (4/Jan/2026)</small>
+                            <small class="text-muted">Days Held: 3+ Days</small>
+                            <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
@@ -195,7 +189,7 @@ const NJPWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NJPW TAMASHII Tag Team Championship</small>
                         <small class="text-muted">Date Won: Tamashii: Cold War (4/July/2025)</small>
-                        <small class="text-muted">Days Held: 147+ Days</small>
+                        <small class="text-muted">Days Held: 187+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>

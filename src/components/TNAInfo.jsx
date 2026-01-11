@@ -1,6 +1,5 @@
 import TNAMen from '../assets/TNA/Frankie-Kazarian-TNA-World-Champion.jpeg';
 import TNAKO from '../assets/TNA/Lei-Ying-Lee-TNA-Knockouts-World-Champion.jpg';
-import TNAInter from '../assets/TNA/TNA-Impact-Steve-Maclin.png';
 import TNAX from '../assets/TNA/LeonSlaterX.jpg';
 import TNATag from '../assets/TNA/HardyBoyzTNATagTeam.png';
 import TNAKOTag from '../assets/TNA/TheIInspiration.jpg';
@@ -20,7 +19,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA World Championship</small>
                         <small class="text-muted">Date Won: Impact! (13/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 22+ Days</small>
+                        <small class="text-muted">Days Held: 55+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -34,22 +33,22 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA Knockouts World Championship</small>
                         <small class="text-muted">Date Won: NXT Gold Rush 2025 (18/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 17+ Days</small>
+                        <small class="text-muted">Days Held: 50+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-tnamen">
                     <div class="card-body">
-                        <img src={TNAInter} class="card-img-top" alt="TNA International Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Steve_Maclin"><h3 class="card-title">Steve Maclin</h3></a>
-                        <p class="card-text">Defeated Frankie Kazarian at Bound for Glory</p>
+                        <img src="https://411mania.com/wp-content/uploads/2025/12/Stracks-TNA-Final-Resolution-645x370.jpg" class="card-img-top" alt="TNA International Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Channing_%22Stacks%22_Lorenzo"><h3 class="card-title">Channing "Stacks" Lorenzo</h3></a>
+                        <p class="card-text">Defeated Steve Maclin at Final Resolution</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">TNA International Championship</small>
-                        <small class="text-muted">Date Won: Bound for Glory 2025 (12/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 54+ Days</small>
-                        <small class="text-muted">Reign: 2</small>
+                        <small class="text-muted">Date Won: Final Resolution 2025 (5/Dec/2025)</small>
+                        <small class="text-muted">Days Held: 33+ Days</small>
+                        <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
@@ -62,7 +61,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA X Division Championship</small>
                         <small class="text-muted">Date Won: Slammiversary 2025 (20/July/2025)</small>
-                        <small class="text-muted">Days Held: 138+ Days</small>
+                        <small class="text-muted">Days Held: 171+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -76,7 +75,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Slammiversary 2025 (20/July/2025)</small>
-                        <small class="text-muted">Days Held: 138+ Days</small>
+                        <small class="text-muted">Days Held: 171+ Days</small>
                         <small class="text-muted">Reign: 4</small>
                     </div>
                 </div>
@@ -90,7 +89,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA Knockouts World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Impact! (27/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 35+ Days</small>
+                        <small class="text-muted">Days Held: 101+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
