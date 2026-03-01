@@ -1,24 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;500&display=swap');
 
+/* ───────────────── Dark Theme (default) ───────────────── */
 :root {
   --red:    #E8001D;
   --gold:   #FFD700;
-  --dark:   #0A0A0A;
-  --mid:    #141414;
-  --card:   #1A1A1A;
-  --text:   #F0F0F0;
-  --muted:  #888;
-  --border: rgba(255,215,0,0.25);
+
+  /* Theme tokens (dark default) */
+  --bg:           #0A0A0A;
+  --bg-card:      #1A1A1A;
+  --bg-hero:      #0A0A0A;
+  --color-text:   #F0F0F0;
+  --color-muted:  #888;
+  --color-body:   #bbb;
+  --color-gold:   #FFD700;
+  --color-gold-shadow: rgba(255,215,0,0.6);
+  --border:       rgba(255,215,0,0.25);
 }
 
+/* ───────────────── Light Theme overrides ───────────────── */
+.light {
+  --bg:           #FFFFFF;
+  --bg-card:      #F2F2F2;
+  --bg-hero:      #FAFAFA;
+  --color-text:   #111111;
+  --color-muted:  #555555;
+  --color-body:   #444444;
+  --color-gold:   #9A6F00;
+  --color-gold-shadow: rgba(154,111,0,0.4);
+  --border:       rgba(232,0,29,0.18);
+}
+
+/* ───────────────── Base ───────────────── */
 .home {
-  background-color: var(--dark);
-  color: var(--text);
+  background-color: var(--bg);
+  color: var(--color-text);
   font-family: 'Barlow', sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
+  transition: background-color 0.5s, color 0.5s;
 }
 
+/* ───────────────── Hero ───────────────── */
 .home-hero {
   position: relative;
   display: flex;
@@ -27,8 +49,9 @@
   min-height: 85vh;
   text-align: center;
   padding: 4rem 2rem;
-  background: var(--dark);
+  background: var(--bg-hero);
   overflow: hidden;
+  transition: background-color 0.5s;
 }
 
 .home-hero::before {
@@ -54,6 +77,10 @@
   pointer-events: none;
 }
 
+.light .home-hero::after {
+  background: radial-gradient(ellipse, rgba(232,0,29,0.07) 0%, transparent 70%);
+}
+
 @keyframes gridDrift {
   from { background-position: 0 0; }
   to   { background-position: 60px 60px; }
@@ -71,11 +98,12 @@
   font-weight: 700;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--gold);
-  border: 1px solid var(--gold);
+  color: var(--color-gold);
+  border: 1px solid var(--color-gold);
   padding: 0.25rem 1rem;
   margin-bottom: 1.5rem;
   animation: fadeUp 0.6s ease both;
+  transition: color 0.5s, border-color 0.5s;
 }
 
 .home-title {
@@ -83,15 +111,21 @@
   font-size: clamp(5rem, 14vw, 11rem);
   line-height: 0.9;
   letter-spacing: 0.02em;
-  color: var(--text);
+  color: var(--color-text);
   text-shadow: 0 0 60px rgba(232,0,29,0.5), 4px 4px 0 var(--red);
   animation: fadeUp 0.6s 0.15s ease both;
   margin: 0;
+  transition: color 0.5s, text-shadow 0.5s;
+}
+
+.light .home-title {
+  text-shadow: 3px 3px 0 var(--red);
 }
 
 .home-title span {
-  color: var(--gold);
-  text-shadow: 0 0 40px rgba(255,215,0,0.6), 4px 4px 0 #B8860B;
+  color: var(--color-gold);
+  text-shadow: 0 0 40px var(--color-gold-shadow), 4px 4px 0 #7a5a00;
+  transition: color 0.5s, text-shadow 0.5s;
 }
 
 .hero-subtitle {
@@ -100,9 +134,10 @@
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-top: 1.2rem;
   animation: fadeUp 0.6s 0.3s ease both;
+  transition: color 0.5s;
 }
 
 .hero-badge-row {
@@ -122,18 +157,23 @@
   text-transform: uppercase;
   padding: 0.4rem 1rem;
   border: 1px solid var(--border);
-  color: var(--gold);
+  color: var(--color-gold);
   background: rgba(255,215,0,0.05);
   backdrop-filter: blur(4px);
   clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
-  transition: background 0.2s, border-color 0.2s;
+  transition: background 0.2s, border-color 0.2s, color 0.5s;
+}
+
+.light .hero-badge {
+  background: rgba(154,111,0,0.07);
 }
 
 .hero-badge:hover {
   background: rgba(255,215,0,0.12);
-  border-color: var(--gold);
+  border-color: var(--color-gold);
 }
 
+/* ───────────────── Divider ───────────────── */
 .home-divider {
   display: flex;
   align-items: center;
@@ -142,6 +182,7 @@
   max-width: 900px;
   margin: 0 auto;
 }
+
 .home-divider::before,
 .home-divider::after {
   content: '';
@@ -149,11 +190,14 @@
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--red), transparent);
 }
+
 .divider-icon {
-  color: var(--gold);
+  color: var(--color-gold);
   font-size: 1.4rem;
+  transition: color 0.5s;
 }
 
+/* ───────────────── Sections ───────────────── */
 .home-section {
   max-width: 860px;
   margin: 0 auto;
@@ -174,24 +218,28 @@
   font-family: 'Bebas Neue', cursive;
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   line-height: 1;
-  color: var(--text);
+  color: var(--color-text);
   margin-bottom: 1.25rem;
+  transition: color 0.5s;
 }
 
 .section-body {
   font-size: 1.05rem;
   line-height: 1.75;
-  color: #bbb;
+  color: var(--color-body);
   max-width: 620px;
+  transition: color 0.5s;
 }
 
+/* About card */
 .about-card {
   position: relative;
-  background: var(--card);
+  background: var(--bg-card);
   border: 1px solid var(--border);
   padding: 2.5rem;
   margin-top: 2rem;
   overflow: hidden;
+  transition: background 0.5s, border-color 0.5s;
 }
 
 .about-card::before {
@@ -199,7 +247,8 @@
   position: absolute;
   top: 0; left: 0;
   width: 4px; height: 100%;
-  background: linear-gradient(180deg, var(--red), var(--gold));
+  background: linear-gradient(180deg, var(--red), var(--color-gold));
+  transition: background 0.5s;
 }
 
 .about-card::after {
@@ -214,6 +263,11 @@
   user-select: none;
 }
 
+.light .about-card::after {
+  color: rgba(154,111,0,0.06);
+}
+
+/* ───────────────── Tech Grid ───────────────── */
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -222,19 +276,20 @@
   border: 1px solid var(--border);
   margin-top: 2rem;
   overflow: hidden;
+  transition: background 0.5s, border-color 0.5s;
 }
 
 .tech-item {
-  background: var(--card);
+  background: var(--bg-card);
   padding: 1.5rem 1.25rem;
   text-align: center;
-  transition: background 0.2s;
+  transition: background 0.3s;
   text-decoration: none;
   cursor: default;
 }
 
 .tech-item:hover {
-  background: #222;
+  filter: brightness(0.92);
 }
 
 .tech-item a {
@@ -253,21 +308,25 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text);
+  color: var(--color-text);
+  transition: color 0.5s;
 }
 
 .tech-sub {
   font-size: 0.72rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-top: 0.2rem;
+  transition: color 0.5s;
 }
 
+/* ───────────────── Footer ───────────────── */
 .home-footer {
   position: relative;
   text-align: center;
   padding: 3rem 2rem 4rem;
   border-top: 1px solid var(--border);
   overflow: hidden;
+  transition: border-color 0.5s;
 }
 
 .home-footer::before {
@@ -280,25 +339,33 @@
   pointer-events: none;
 }
 
+.light .home-footer::before {
+  background: radial-gradient(ellipse, rgba(232,0,29,0.04) 0%, transparent 70%);
+}
+
 .footer-msg {
   font-size: 1rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-bottom: 0.5rem;
+  transition: color 0.5s;
 }
 
 .footer-thanks {
   font-family: 'Bebas Neue', cursive;
   font-size: clamp(1.8rem, 5vw, 3rem);
   letter-spacing: 0.05em;
-  color: var(--gold);
-  text-shadow: 0 0 30px rgba(255,215,0,0.3);
+  color: var(--color-gold);
+  text-shadow: 0 0 30px var(--color-gold-shadow);
+  transition: color 0.5s, text-shadow 0.5s;
 }
 
+/* ───────────────── Animations ───────────────── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* ───────────────── Responsive ───────────────── */
 @media (max-width: 600px) {
   .home-hero { min-height: 70vh; }
   .tech-grid { grid-template-columns: 1fr 1fr; }
