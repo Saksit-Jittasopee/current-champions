@@ -13,7 +13,7 @@ text-align: center;
 }
 
 .dark{
-  background: black;
+  background: rgb(2, 1, 39);
   color: white;
   transition: all 0.5s;
 }

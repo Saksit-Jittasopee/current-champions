@@ -6,9 +6,9 @@
   --gold:   #FFD700;
 
   /* Theme tokens (dark default) */
-  --bg:           #0A0A0A;
-  --bg-card:      #1A1A1A;
-  --bg-hero:      #0A0A0A;
+  --bg:           rgb(2, 1, 39);
+  --bg-card:      rgb(2, 1, 39);
+  --bg-hero:      rgb(2, 1, 39);
   --color-text:   #F0F0F0;
   --color-muted:  #888;
   --color-body:   #bbb;
