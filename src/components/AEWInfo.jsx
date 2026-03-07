@@ -1,8 +1,5 @@
-import AEWWomen from '../assets/AEW/Kris-Statlander-Wins-Champ.webp';
-import AEWTNT from '../assets/AEW/MarkBriscoeTNT.jpg';
 import AEWNational from '../assets/AEW/RicochetNational.jpg';
 import AEWTag from '../assets/AEW/FTR3x.jpg';
-import AEWTrios from '../assets/AEW/TheOpps.jpg';
 import "./AEWInfo.css";
 
 const AEWInfo = ({title}) =>{
@@ -19,21 +16,21 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW World Championship</small>
                         <small class="text-muted">Date Won: Worlds End 2025 (27/Dec/2025)</small>
-                        <small class="text-muted">Days Held: 10+ Days</small>
+                        <small class="text-muted">Days Held: 69+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
 
                 <div class="card-aewwomen">
                     <div class="card-body">
-                        <img src={AEWWomen} class="card-img-top" alt="AEW Women's World Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Kris_Statlander"><h3 class="card-title">Kris Statlander</h3></a>
-                        <p class="card-text">Defeated defending champion "Timeless" Toni Storm, Jamie Hayter, and Thekla in a four-way match at All Out.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ0z1ELAHP6zWDpjrdgiH97w4LW9P4KKi5WQ&s" class="card-img-top" alt="AEW Women's World Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Thekla_(wrestler)"><h3 class="card-title">Thekla</h3></a>
+                        <p class="card-text">Defeated Kris Statlander in a Strap match on Dynamite.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">AEW Women's World Championship</small>
-                        <small class="text-muted">Date Won: All Out 2025 (20/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 108+ Days</small>
+                        <small class="text-muted">Date Won: Dynamite (11/Feb/2026)</small>
+                        <small class="text-muted">Days Held: 23+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -61,7 +58,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW Continental Championship</small>
                         <small class="text-muted">Date Won: Worlds End 2025 (27/Dec/2025)</small>
-                        <small class="text-muted">Days Held: 10+ Days</small>
+                        <small class="text-muted">Days Held: 69+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -75,22 +72,22 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW International Championship</small>
                         <small class="text-muted">Date Won: All In: Texas (12/July/2025)</small>
-                        <small class="text-muted">Days Held: 178+ Days</small>
+                        <small class="text-muted">Days Held: 237+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-aewmen">
                     <div class="card-body">
-                        <img src={AEWTNT} class="card-img-top" alt="AEW TNT Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Mark_Briscoe"><h3 class="card-title">Mark Briscoe</h3></a>
-                        <p class="card-text">Defeated Kyle Fletcher in a No Disqualification match at Full Gear; had Briscoe lost the match, he would have been forced to join Fletcher in the Don Callis Family.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ24A08MugIrCzEBp7KfUE5RG09EuJKt5lTeg&s" class="card-img-top" alt="AEW TNT Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Kyle_Fletcher"><h3 class="card-title">Kyle Fletcher</h3></a>
+                        <p class="card-text">Defeated Tommaso Ciampa on Dynamite and change the title to pink version.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">AEW TNT Championship</small>
-                        <small class="text-muted">Date Won: Full Gear 2025 (22/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 45+ Days</small>
-                        <small class="text-muted">Reign: 1</small>
+                        <small class="text-muted">Date Won: Dynaite (11/Feb/2025)</small>
+                        <small class="text-muted">Days Held: 23+ Days</small>
+                        <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
 
@@ -103,7 +100,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW National Championship</small>
                         <small class="text-muted">Date Won: Full Gear 2025 (22/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 45+ Days</small>
+                        <small class="text-muted">Days Held: 104+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -117,7 +114,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW TBS Championship</small>
                         <small class="text-muted">Date Won: Dynamite: New Year's Smash 2025 (31/Dec/2025)</small>
-                        <small class="text-muted">Days Held: 6+ Days</small>
+                        <small class="text-muted">Days Held: 65+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
@@ -131,21 +128,21 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Full Gear 2025 (22/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 45+ Days</small>
+                        <small class="text-muted">Days Held: 104+ Days</small>
                         <small class="text-muted">Reign: 3</small>
                     </div>
                 </div>
 
                 <div class="card-aewmen">
                     <div class="card-body">
-                        <img src={AEWTrios} class="card-img-top" alt="AEW World Trios Championship" />
-                        <h3 class="card-title">The Opps</h3><a href="https://en.wikipedia.org/wiki/Samoa_Joe">Samoa Joe</a><a href="https://en.wikipedia.org/wiki/Powerhouse_Hobbs">Powerhouse Hobbs</a><a href="https://en.wikipedia.org/wiki/Katsuyori_Shibata">Katsuyori Shibata</a>
-                        <p class="card-text">Defeated previous champions Death Riders (Claudio Castagnoli, Wheeler Yuta, and Jon Moxley) at Dynamite: Spring BreakThru.</p>
+                        <img src="https://preview.redd.it/the-don-callis-family-now-owns-the-aew-trios-titles-after-v0-u8kne5e557ng1.jpeg?width=1080&crop=smart&auto=webp&s=6034fab22dff818000597ee4cfef51b364002be7" class="card-img-top" alt="AEW World Trios Championship" />
+                        <a href="https://en.wikipedia.org/wiki/The_Don_Callis_Family"><h3 class="card-title">The Don Callis Family</h3></a><a href="https://en.wikipedia.org/wiki/Kazuchika_Okada">Kazuchika Okada</a><a href="https://en.wikipedia.org/wiki/Kyle_Fletcher">Kyle Fletcher</a><a href="https://en.wikipedia.org/wiki/Mark_Davis_(wrestler)">Mark Davis</a>
+                        <p class="card-text">Defeated Jet Set Rodeo ("Hangman" Adam Page, "Speedball" Mike Bailey, and "The Jet" Kevin Knight) on Dynamite.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">AEW World Trios Championship</small>
-                        <small class="text-muted">Date Won: Dynamite: Spring BreakThru (16/Apr/2025)</small>
-                        <small class="text-muted">Days Held: 265+ Days</small>
+                        <small class="text-muted">Date Won: Dynamite (4/Mar/2026)</small>
+                        <small class="text-muted">Days Held: 2+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -159,7 +156,7 @@ const AEWInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">AEW Women's World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Dynamite: Winter Is Coming 2025 (10/Dec/2025)</small>
-                        <small class="text-muted">Days Held: 27+ Days</small>
+                        <small class="text-muted">Days Held: 86+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>

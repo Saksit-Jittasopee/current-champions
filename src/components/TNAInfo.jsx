@@ -1,8 +1,5 @@
-import TNAMen from '../assets/TNA/Frankie-Kazarian-TNA-World-Champion.jpeg';
-import TNAKO from '../assets/TNA/Lei-Ying-Lee-TNA-Knockouts-World-Champion.jpg';
 import TNAX from '../assets/TNA/LeonSlaterX.jpg';
 import TNATag from '../assets/TNA/HardyBoyzTNATagTeam.png';
-import TNAKOTag from '../assets/TNA/TheIInspiration.jpg';
 import "./TNAInfo.css";
 
 const TNAInfo = ({title}) =>{
@@ -12,42 +9,42 @@ const TNAInfo = ({title}) =>{
             <div class="card-group">
                 <div class="card-tnamen">
                     <div class="card-body">
-                        <img src={TNAMen} class="card-img-top" alt="TNA World Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Frankie_Kazarian"><h3 class="card-title">Frankie Kazarian</h3></a>
-                        <p class="card-text">Defeated Mike Santana during the live broadcast of Impact! This was Kazarian's Call Your Shot Gauntlet cash-in match</p>
+                        <img src="https://s.yimg.com/ny/api/res/1.2/CbUL8ys2oNGbECe_ci8roQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MDtjZj13ZWJw/https://media.zenfs.com/en/wrestle_zone_910/7557165abe036381c7d77328bba4ca8d" class="card-img-top" alt="TNA World Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Mike_Santana"><h3 class="card-title">Mike Santana</h3></a>
+                        <p class="card-text">Defeated Frankie Kazarian on the Thursday Night Impact!'s AMC debut.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">TNA World Championship</small>
-                        <small class="text-muted">Date Won: Impact! (13/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 55+ Days</small>
-                        <small class="text-muted">Reign: 1</small>
+                        <small class="text-muted">Date Won: Thursday Night Impact! premiere on AMC (15/Jan/2026)</small>
+                        <small class="text-muted">Days Held: 51+ Days</small>
+                        <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
 
                 <div class="card-tnawomen">
                     <div class="card-body">
-                        <img src={TNAKO} class="card-img-top" alt="TNA Knockouts World Championship" />
-                        <a href="https://en.wikipedia.org/wiki/L%C3%A9i_Ying_Lee"><h3 class="card-title">Léi Yǐng Lee</h3></a>
-                        <p class="card-text">Jordan and Léi Yǐng Lee won a battle royal at Victory Road to advance to a singles match for the vacated title later that night, which was won by Jordan. Previous champion Ash by Elegance had vacated the title earlier in the night.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdzDEMFqkjw8rhgTrcZrD_a63ioKKsSPm-A&s" class="card-img-top" alt="TNA Knockouts World Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Arianna_Grace"><h3 class="card-title">Arianna Grace</h3></a>
+                        <p class="card-text">Defeated Léi Ying Lee at No Surrender to win her first title.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">TNA Knockouts World Championship</small>
-                        <small class="text-muted">Date Won: NXT Gold Rush 2025 (18/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 50+ Days</small>
+                        <small class="text-muted">Date Won: No Surrender 2026 (13/Feb/2026)</small>
+                        <small class="text-muted">Days Held: 22+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-tnamen">
                     <div class="card-body">
-                        <img src="https://411mania.com/wp-content/uploads/2025/12/Stracks-TNA-Final-Resolution-645x370.jpg" class="card-img-top" alt="TNA International Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Channing_%22Stacks%22_Lorenzo"><h3 class="card-title">Channing "Stacks" Lorenzo</h3></a>
-                        <p class="card-text">Defeated Steve Maclin at Final Resolution</p>
+                        <img src="https://411mania.com/wp-content/uploads/2026/02/Trey-Miguel-TNA-No-Surrender-2026.png" class="card-img-top" alt="TNA International Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Trey_Miguel"><h3 class="card-title">Trey Miguel</h3></a>
+                        <p class="card-text">Defeated Channing "Stacks" Lorenzo at No Surrender. This was Trey Miguel's Feast or Fired opportunity.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">TNA International Championship</small>
-                        <small class="text-muted">Date Won: Final Resolution 2025 (5/Dec/2025)</small>
-                        <small class="text-muted">Days Held: 33+ Days</small>
+                        <small class="text-muted">Date Won: No Surrender 2026 (13/Feb/2026)</small>
+                        <small class="text-muted">Days Held: 22+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -61,7 +58,7 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA X Division Championship</small>
                         <small class="text-muted">Date Won: Slammiversary 2025 (20/July/2025)</small>
-                        <small class="text-muted">Days Held: 171+ Days</small>
+                        <small class="text-muted">Days Held: 230+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -75,21 +72,21 @@ const TNAInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">TNA World Tag Team Championship</small>
                         <small class="text-muted">Date Won: Slammiversary 2025 (20/July/2025)</small>
-                        <small class="text-muted">Days Held: 171+ Days</small>
+                        <small class="text-muted">Days Held: 230+ Days</small>
                         <small class="text-muted">Reign: 4</small>
                     </div>
                 </div>
 
                 <div class="card-tnawomen">
                     <div class="card-body">
-                        <img src={TNAKOTag} class="card-img-top" alt="TNA Knockouts World Tag Team Championship" />
-                        <a href="https://en.wikipedia.org/wiki/The_IInspiration"><h3 class="card-title">The IInspiration (Jessie McKay & Cassie Lee)</h3></a>
-                        <p class="card-text">Defeated The Elegance Brand (represented by Heather and M by Elegance) during the Impact! tapings to win the titles. (Airing October 2)</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-b6Ugqg7soY9QEy0yAVl40Vfxv4g9xdDiAg&s" class="card-img-top" alt="TNA Knockouts World Tag Team Championship" />
+                        <a href=""><h3 class="card-title">The Elegance Brand (Heather by Elegance and M by Elegance)</h3></a>
+                        <p class="card-text">Defeated The IInspiration (Jessie McKay and Cassie Lee) on Thursday Night Impact!'s AMC debut.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">TNA Knockouts World Tag Team Championship</small>
-                        <small class="text-muted">Date Won: Impact! (27/Sep/2025)</small>
-                        <small class="text-muted">Days Held: 101+ Days</small>
+                        <small class="text-muted">Date Won: Thursday Night Impact! premiere on AMC (15/Jan/2026)</small>
+                        <small class="text-muted">Days Held: 51+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>

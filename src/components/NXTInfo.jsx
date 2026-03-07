@@ -1,8 +1,5 @@
 import NXTWomen from '../assets/NXT/JacyJayneNXTWomen.webp';
-import NXTNA from '../assets/NXT/EthanPageNA.webp';
 import NXTHC from '../assets/NXT/stacks.png';
-import NXTTag from '../assets/NXT/DarkStateTagTeam.webp';
-import WWESpeed from '../assets/NXT/JasperTroy.jpg';
 import WWEWomenSpeed from '../assets/NXT/FallonHenley.jpg';
 import "./NXTInfo.css";
 
@@ -13,15 +10,15 @@ const NXTInfo = ({title}) =>{
             <div class="card-group">
                 <div class="card-nxtmen">
                     <div class="card-body">
-                        <img src="https://www.wwe.com/f/styles/og_image/public/all/2016/08/Vacant--9b7bb01de657f8b369d196dc037a3416.png" class="card-img-top" alt="NXT Championship" />
-                        <a><h3 class="card-title">Vacant</h3></a>
-                        <p class="card-text">After successfully defending the title against Leon Slater at NXT: New Year's Evil, previous champion Oba Femi left the NXT Championship belt in the ring, voluntarily relinquishing the title.</p>
+                        <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/02/1200/675/wwe-joe-hendry-021626-2.jpg?ve=1&tl=1" class="card-img-top" alt="NXT Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Joe_Hendry"><h3 class="card-title">Joe Hendry</h3></a>
+                        <p class="card-text">Defeated Ricky Saints, Dion Lennox, Sean Legacy, Jackson Drake, Shiloh Hill, and Keanu Carver in a seven-man ladder match to win the vacant title; previous champion Oba Femi voluntarily relinquished the title to go to the main roster.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NXT Championship</small>
-                        <small class="text-muted">Date Won: -</small>
-                        <small class="text-muted">Days Held: -</small>
-                        <small class="text-muted">Reign: -</small>
+                        <small class="text-muted">Date Won: NXT (3/Feb/2026)</small>
+                        <small class="text-muted">Days Held: 32+ Days</small>
+                        <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
@@ -34,21 +31,21 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Women's Championship</small>
                         <small class="text-muted">Date Won: NXT: Gold Rush - Night 1 (18/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 53+ Days</small>
+                        <small class="text-muted">Days Held: 109+ Days</small>
                         <small class="text-muted">Reign: 2</small>
                     </div>
                 </div>
 
                 <div class="card-nxtmen">
                     <div class="card-body">
-                        <img src={NXTNA} class="card-img-top" alt="NXT North American Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Ethan_Page"><h3 class="card-title">Ethan Page</h3></a>
-                        <p class="card-text">Defeated Ricky Saints on NXT to win the North American Championship later changed to Canadian Championship.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzTo3wtp7SAbJBgVN01MBWREFig9iJoblHzQ&s" class="card-img-top" alt="NXT North American Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Myles_Borne"><h3 class="card-title">Myles Borne</h3></a>
+                        <p class="card-text">Defeated Ethan Page on NXT and change the title back to original version.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NXT North American Championship</small>
-                        <small class="text-muted">Date Won: NXT (27/May/2025)</small>
-                        <small class="text-muted">Days Held: 228+ Days</small>
+                        <small class="text-muted">Date Won: NXT (24/Feb/2026)</small>
+                        <small class="text-muted">Days Held: 11+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -62,7 +59,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Women's North American Championship</small>
                         <small class="text-muted">Date Won: NXT: New Year's Evil 2026 (6/Jan/2026)</small>
-                        <small class="text-muted">Days Held: 4+ Days</small>
+                        <small class="text-muted">Days Held: 60+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -76,35 +73,35 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">NXT Heritage Cup</small>
                         <small class="text-muted">Date Won: NXT (24/June/2025)</small>
-                        <small class="text-muted">Days Held: 200+ Days</small>
+                        <small class="text-muted">Days Held: 256+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-nxtmen">
                     <div class="card-body">
-                        <img src={NXTTag} class="card-img-top" alt="NXT Tag Team Championship" />
-                        <a href="https://en.wikipedia.org/wiki/DarkState"><h3 class="card-title">DarkState (Dion Lennox & Osiris Griffin)</h3></a>
-                        <p class="card-text">Defeated The Hardy Boyz (Jeff Hardy and Matt Hardy) at Halloween Havoc in a Broken Rules match to reclaim their title.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2FQo0XUIi7ECsfyVKqVirePZYTcO8qWMrww&s" class="card-img-top" alt="NXT Tag Team Championship" />
+                        <a href="https://en.wikipedia.org/wiki/The_Vanity_Project_(professional_wrestling)"><h3 class="card-title">The Vanity Project (Brad Baylor and Ricky Smokes)</h3></a>
+                        <p class="card-text">Defeated DarkState (Osiris Griffin and Saquon Shugars) on NXT.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">NXT Tag Team Championship</small>
-                        <small class="text-muted">Date Won: NXT Halloween Havoc 2025 (25/Oct/2025)</small>
-                        <small class="text-muted">Days Held: 77+ Days</small>
-                        <small class="text-muted">Reign: 2</small>
+                        <small class="text-muted">Date Won: NXT (24/Feb/2026)</small>
+                        <small class="text-muted">Days Held: 11+ Days</small>
+                        <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
 
                 <div class="card-nxtmen">
                     <div class="card-body">
-                        <img src={WWESpeed} class="card-img-top" alt="WWE Speed Championship" />
-                        <a href="https://en.wikipedia.org/wiki/Jasper_Troy"><h3 class="card-title">Jasper Troy</h3></a>
-                        <p class="card-text">Defeated El Grande Americano II on NXT.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthdgT3A_NIgeKH9c8QSpTkjZ8ERjSoPuLtg&s" class="card-img-top" alt="WWE Speed Championship" />
+                        <a href="https://en.wikipedia.org/wiki/Aigle_Blanc"><h3 class="card-title">Elio LeFleur</h3></a>
+                        <p class="card-text">Defeated defending champion Jasper Troy and Eli Knight in a triple threat match with a seven-minute time limit on NXT.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">WWE Speed Championship</small>
-                        <small class="text-muted">Date Won: NXT (11/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 60+ Days</small>
+                        <small class="text-muted">Date Won: NXT (24/Feb/2026)</small>
+                        <small class="text-muted">Days Held: 11+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
@@ -118,7 +115,7 @@ const NXTInfo = ({title}) =>{
                     <div class="card-footer">
                         <small class="text-muted">WWE Women's Speed Championship</small>
                         <small class="text-muted">Date Won: NXT: Gold Rush - Night 1 (18/Nov/2025)</small>
-                        <small class="text-muted">Days Held: 46+ Days</small>
+                        <small class="text-muted">Days Held: 109+ Days</small>
                         <small class="text-muted">Reign: 1</small>
                     </div>
                 </div>
