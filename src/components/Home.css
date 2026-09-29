@@ -18,25 +18,16 @@
 }
 
 /* ───────────────── Light Theme overrides ───────────────── */
-.light, html.light, body.light {
+.light {
   --bg:           #FFFFFF;
-  --bg-card:      #FFFFFF;
-  --bg-hero:      #FFFFFF;
+  --bg-card:      #F2F2F2;
+  --bg-hero:      #FAFAFA;
   --color-text:   #111111;
   --color-muted:  #555555;
   --color-body:   #444444;
   --color-gold:   #9A6F00;
   --color-gold-shadow: rgba(154,111,0,0.4);
-  --border:       rgba(0, 0, 0, 0.12);
-}
-
-.light .home,
-.light .home-hero,
-.light .home-section,
-.light .about-card,
-.light .tech-item,
-.light .home-footer {
-  background-color: #FFFFFF !important;
+  --border:       rgba(232,0,29,0.18);
 }
 
 /* ───────────────── Base ───────────────── */
