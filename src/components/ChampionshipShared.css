@@ -1,0 +1,304 @@
+/* ==========================================================================
+   Shared Championship Styles - Modern Grid, Card Box, Typography & Layout
+   ========================================================================== */
+
+main {
+  max-width: 1240px;
+  min-height: 85vh;
+  margin: 0 auto;
+  padding: 24px 16px 48px 16px;
+  width: 100%;
+}
+
+.page-title, main h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 12px 0 20px 0;
+  text-align: left;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 12px;
+}
+
+/* Responsive Championship Card Grid */
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  width: 100%;
+  align-items: stretch;
+  margin-top: 16px;
+}
+
+/* Unified Card Container */
+.champion-card,
+.card-raw,
+.card-smackdown,
+.card-open,
+.card-nxtmen,
+.card-nxtwomen,
+.card-aewmen,
+.card-aewwomen,
+.card-tnamen,
+.card-tnawomen,
+.card-njpwmen,
+.card-njpwjrmen,
+.card-njpwstrong,
+.card-njpwwomen {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card);
+  border-radius: 14px;
+  border: 1px solid var(--border-card);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.25s cubic-bezier(0.2, 0, 0, 1), border-color 0.25s ease;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.champion-card:hover,
+.card-raw:hover,
+.card-smackdown:hover,
+.card-open:hover,
+.card-nxtmen:hover,
+.card-nxtwomen:hover,
+.card-aewmen:hover,
+.card-aewwomen:hover,
+.card-tnamen:hover,
+.card-tnawomen:hover,
+.card-njpwmen:hover,
+.card-njpwjrmen:hover,
+.card-njpwstrong:hover,
+.card-njpwwomen:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+/* Image Container */
+.card-image-box {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), #1e293b;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light .card-image-box {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.2) 100%), #e2e8f0;
+}
+
+.card-photo, .card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.champion-card:hover .card-photo,
+.champion-card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Card Brand/Division Badge */
+.card-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* Card Body */
+.card-body {
+  padding: 18px 16px 14px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  text-align: left;
+}
+
+.title-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.championship-title {
+  margin: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.card-title {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text-primary);
+  display: block;
+  text-align: left;
+}
+
+.champion-holder-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.team-name {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.team-members {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.champion-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.champion-link:hover {
+  color: var(--gold-primary);
+  text-decoration: underline;
+}
+
+/* Match outcome / notes text */
+.card-text {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+/* Card Footer */
+.card-footer {
+  padding: 12px 16px 16px 16px;
+  border-top: 1px solid var(--border-card);
+  background: var(--bg-card-header);
+  margin-top: auto;
+  display: block;
+  width: 100%;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.stat-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-card);
+  min-width: 0;
+}
+
+.light .stat-chip {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.stat-icon {
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.stat-details {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.stat-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  line-height: 1;
+}
+
+.stat-value {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 2px;
+}
+
+.days-held-chip {
+  background: rgba(245, 158, 11, 0.12);
+  border-color: rgba(245, 158, 11, 0.35);
+}
+
+.days-held-chip .stat-icon,
+.days-held-chip .stat-value {
+  color: var(--gold-primary);
+  font-weight: 700;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  main {
+    padding: 16px 12px 36px 12px;
+  }
+  .card-group {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .card-image-box {
+    height: 250px;
+  }
+}
