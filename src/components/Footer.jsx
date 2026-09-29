@@ -1,52 +1,22 @@
-import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
-import './Footer.css';
+import "./Footer.css";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
-const Footer = ({ title }) => {
-  return (
-    <footer className="site-footer">
-      <div className="footer-inner">
-        <p className="footer-title">{title}</p>
-        <div className="social-links">
-          <a
-            href="https://www.facebook.com/saksit.jittasopee.1"
-            className="social-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Facebook"
-          >
-            <FaFacebook size={18} />
-          </a>
-          <a
-            href="https://www.instagram.com/saksitjittasopee/"
-            className="social-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Instagram"
-          >
-            <FaInstagram size={18} />
-          </a>
-          <a
-            href="https://github.com/Saksit-Jittasopee"
-            className="social-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="GitHub"
-          >
-            <FaGithub size={18} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/saksit-jittasopee-743981382/"
-            className="social-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="LinkedIn"
-          >
-            <FaLinkedin size={18} />
-          </a>
-        </div>
-      </div>
-    </footer>
-  );
-};
+const Footer = ({title}) => {
+
+    return (
+            <nav>
+            <h3>{title}</h3>
+            <div class="logo">
+            <a href="https://www.facebook.com/saksit.jittasopee.1" target="_blank"><FaFacebook size={20}/></a>
+            <a href="https://www.instagram.com/saksitjittasopee/" class="link" target="_blank"><FaInstagram size={20}/></a>
+            <a href="https://github.com/Saksit-Jittasopee" class="link" target="_blank"><FaGithub size={20}/></a>
+            <a href="https://www.linkedin.com/in/saksit-jittasopee-743981382/" class="link" target="_blank"><FaLinkedin size={20}/></a>
+            </div>
+            </nav>
+        )
+}
 
 export default Footer;
