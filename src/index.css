@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand Accents */
+  --gold-primary: #f59e0b;
+  --gold-hover: #d97706;
+  --gold-glow: rgba(245, 158, 11, 0.35);
+
+  --raw-red: #e11d48;
+  --raw-red-glow: rgba(225, 29, 72, 0.3);
+  --smackdown-blue: #2563eb;
+  --smackdown-blue-glow: rgba(37, 99, 235, 0.3);
+  --open-purple: #9333ea;
+  --open-purple-glow: rgba(147, 51, 234, 0.3);
+
+  --nxt-gold: #f59e0b;
+  --nxt-women: #6366f1;
+
+  --aew-gold: #d97706;
+  --aew-women: #ec4899;
+
+  --tna-red: #dc2626;
+  --tna-women: #f43f5e;
+
+  --njpw-red: #e11d48;
+  --njpw-gold: #eab308;
+  --njpw-cyan: #0284c7;
+  --njpw-women: #a855f7;
+
+  /* Dark Theme (Default) */
+  --bg-page: #0a0e17;
+  --bg-surface: #111827;
+  --bg-card: #151d2f;
+  --bg-card-hover: #1b253b;
+  --bg-card-header: rgba(0, 0, 0, 0.25);
+  --bg-glass: rgba(17, 24, 39, 0.8);
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-link: #60a5fa;
+  --text-link-hover: #93c5fd;
+
+  --border-color: rgba(255, 255, 255, 0.1);
+  --border-card: rgba(255, 255, 255, 0.08);
+  --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+  --card-shadow-hover: 0 20px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+.light {
+  --bg-page: #f1f5f9;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fafc;
+  --bg-card-header: rgba(0, 0, 0, 0.03);
+  --bg-glass: rgba(255, 255, 255, 0.85);
+
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-link: #2563eb;
+  --text-link-hover: #1d4ed8;
+
+  --border-color: rgba(0, 0, 0, 0.1);
+  --border-card: rgba(0, 0, 0, 0.08);
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --card-shadow-hover: 0 15px 25px -5px rgba(0, 0, 0, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.5;
+  min-height: 100vh;
+}
