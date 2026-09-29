@@ -11,3 +11,17 @@
   display: flex;
   flex-direction: column;
 }
+
+.light {
+  min-height: 100vh;
+  background-color: #ffffff !important;
+  color: #0f172a;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  min-height: 100vh;
+  background-color: #0a0e17 !important;
+  color: #f8fafc;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

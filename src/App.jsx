@@ -7,37 +7,39 @@ import AEWInfo from './components/AEWInfo';
 import TNAInfo from './components/TNAInfo';
 import NJPWInfo from './components/NJPWInfo';
 import { useState, useEffect } from 'react';
-import './App.css'
- import { HashRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import './App.css';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
-    const [theme, setTheme] = useState(localStorage.getItem("mode") || "light")
+  const [theme, setTheme] = useState(localStorage.getItem('mode') || 'light');
 
-    useEffect(()=>{
-    localStorage.setItem("mode",theme) //localStorage บันทึกข้อมูล
-  },[theme])
+  useEffect(() => {
+    localStorage.setItem('mode', theme);
+    document.documentElement.className = theme;
+    document.body.className = theme;
+  }, [theme]);
 
   return (
-  <Router>
-  <div className={theme}>
-  <div className='App'>
-  <Header theme={theme} setTheme={setTheme}/>
-  <div className='Content'>
-  <Routes>
-    <Route path="/" element={<Home title="Welcome To My Page"/>} exact />
-    <Route path="/wwe" element={<WWEInfo title="WWE - World Wrestling Entertainment"/>} exact />
-    <Route path="/nxt" element={<NXTInfo title="WWE - World Wrestling Entertainment (NXT)"/>} exact />
-    <Route path="/aew" element={<AEWInfo title="AEW - All Elite Wrestling"/>} exact />
-    <Route path="/tna" element={<TNAInfo title="TNA - Total Nonstop Action Wrestling"/>} exact />
-    <Route path="/njpw" element={<NJPWInfo title="NJPW - New Japan Pro Wrestling"/>} exact />
-    <Route path="*" element={<Navigate to="/" replace/>} />
-  </Routes>
-  </div>
-  <Footer title="&copy; 2025 Saksit Jittasopee. All rights reserved."></Footer>
-  </div>
-  </div>
-  </Router>
-  )
+    <Router>
+      <div className={theme}>
+        <div className="App">
+          <Header theme={theme} setTheme={setTheme} />
+          <div className="Content">
+            <Routes>
+              <Route path="/" element={<Home title="Welcome To My Page" />} exact />
+              <Route path="/wwe" element={<WWEInfo title="WWE - World Wrestling Entertainment" />} exact />
+              <Route path="/nxt" element={<NXTInfo title="WWE - World Wrestling Entertainment (NXT)" />} exact />
+              <Route path="/aew" element={<AEWInfo title="AEW - All Elite Wrestling" />} exact />
+              <Route path="/tna" element={<TNAInfo title="TNA - Total Nonstop Action Wrestling" />} exact />
+              <Route path="/njpw" element={<NJPWInfo title="NJPW - New Japan Pro Wrestling" />} exact />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </div>
+          <Footer title="&copy; 2025 Saksit Jittasopee. All rights reserved." />
+        </div>
+      </div>
+    </Router>
+  );
 }
 
 export default App;
